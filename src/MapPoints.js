@@ -18,6 +18,9 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+        description:
+          "The pectoralis major is the most superficial muscle in the pectoral region.<br/> It is large and fan shaped, and is composed of a sternal head and a clavicular head.[1] The pectoralis major is active in deep or forced inspiration, but not expiration. ",
       },
       {
         name: "Biceps brachii right",
@@ -29,6 +32,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Biceps brachii left",
@@ -40,6 +44,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Anterior deltoid right",
@@ -51,6 +56,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Anterior deltoid left",
@@ -62,6 +68,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Anterior deltoid back right",
@@ -73,6 +80,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Anterior deltoid back left",
@@ -84,6 +92,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Serratus anterior right",
@@ -95,9 +104,22 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Serratus anterior left",
+        shape: "poly",
+        coords: [
+          212, 173, 215, 186, 214, 203, 212, 211, 211, 214, 210, 204, 207, 197,
+          203, 194, 193, 190, 200, 187, 207, 183, 208, 180, 214, 172,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Triceps brachii left",
         shape: "poly",
         coords: [
           362, 251, 365, 238, 366, 227, 369, 215, 371, 198, 369, 181, 360, 166,
@@ -107,9 +129,10 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
-        name: "Serratus anterior right",
+        name: "Triceps brachii right",
         shape: "poly",
         coords: [
           470, 255, 469, 235, 466, 221, 462, 206, 460, 192, 465, 179, 471, 167,
@@ -119,6 +142,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Rectus abdominis",
@@ -132,6 +156,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Gastrocnemius left",
@@ -145,6 +170,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Gastrocnemius right",
@@ -158,6 +184,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Gluteus maximus",
@@ -173,9 +200,10 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
-        name: "Trapezius",
+        name: "Trapezius back",
         shape: "poly",
         coords: [
           429, 97, 423, 88, 416, 85, 408, 91, 398, 104, 386, 114, 376, 122, 358,
@@ -187,6 +215,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Quadriceps femoris right",
@@ -199,6 +228,7 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
       {
         name: "Quadriceps femoris left",
@@ -212,19 +242,137 @@ export function MapPoints() {
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Biceps femoris left",
+        shape: "poly",
+        coords: [
+          412, 330, 408, 336, 396, 340, 384, 340, 379, 346, 376, 357, 375, 371,
+          375, 384, 375, 401, 375, 414, 376, 431, 379, 443, 384, 427, 390, 415,
+          394, 424, 401, 435, 408, 451, 411, 420, 411, 393, 412, 372, 414, 360,
+          415, 347, 412, 328,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "right",
       },
       {
         name: "Biceps femoris right",
         shape: "poly",
         coords: [
-          203, 290, 200, 306, 198, 318, 194, 329, 190, 340, 183, 355, 176, 376,
-          172, 390, 169, 403, 169, 421, 171, 428, 176, 431, 184, 432, 191, 432,
-          196, 431, 200, 427, 203, 418, 207, 406, 211, 389, 215, 371, 217, 354,
-          217, 337, 212, 320, 207, 305,
+          460, 347, 457, 340, 450, 339, 440, 337, 433, 336, 422, 334, 415, 327,
+          414, 342, 415, 365, 419, 383, 419, 401, 418, 416, 421, 435, 425, 454,
+          435, 437, 442, 425, 447, 409, 450, 423, 454, 435, 456, 409, 458, 386,
+          460, 371, 460, 365, 461, 358,
+        ],
+
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "right",
+      },
+      {
+        name: "Latissimus dorsi left",
+        shape: "poly",
+        coords: [
+          387, 178, 376, 179, 369, 178, 370, 188, 370, 203, 369, 218, 376, 241,
+          386, 258, 389, 272, 391, 274, 394, 258, 396, 245, 401, 237, 408, 231,
+          410, 224, 407, 214, 400, 206, 396, 197, 391, 187,
         ],
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
+        tooltip: "right",
+      },
+      {
+        name: "Latissimus dorsi right",
+        shape: "poly",
+        coords: [
+          442, 177, 450, 181, 457, 182, 463, 179, 460, 192, 460, 207, 457, 221,
+          457, 238, 456, 246, 451, 260, 450, 272, 446, 267, 440, 256, 436, 245,
+          432, 235, 426, 228, 423, 224, 422, 215, 425, 207, 433, 194, 437, 187,
+          437, 187,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "right",
+      },
+      {
+        name: "Brachialis right",
+        shape: "poly",
+        coords: [
+          115, 203, 113, 215, 105, 222, 102, 232, 96, 238, 101, 243, 108, 252,
+          109, 235, 110, 225,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Brachialis left",
+        shape: "poly",
+        coords: [
+          212, 213, 218, 220, 221, 227, 226, 235, 221, 241, 215, 253, 214, 242,
+          214, 230,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Obliquus externus abdominis right",
+        shape: "poly",
+        coords: [
+          145, 191, 136, 209, 133, 227, 134, 241, 136, 254, 138, 282, 131, 275,
+          124, 270, 119, 265, 117, 252, 120, 240, 120, 225, 119, 209, 124, 202,
+          130, 195,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Obliquus externus abdominis left",
+        shape: "poly",
+        coords: [
+          214, 194, 204, 195, 193, 191, 194, 199, 196, 211, 194, 224, 193, 237,
+          193, 249, 193, 263, 194, 284, 201, 277, 205, 267, 204, 251, 204, 238,
+          205, 225, 211, 213, 214, 203,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Trapezius front right",
+        shape: "poly",
+        coords: [
+          143, 109, 145, 119, 145, 131, 136, 133, 122, 134, 109, 133, 123, 124,
+          133, 117,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
+      },
+      {
+        name: "Trapezius front left",
+        shape: "poly",
+        coords: [
+          182, 104, 180, 111, 180, 121, 180, 129, 187, 132, 194, 132, 203, 132,
+          211, 132, 215, 131, 198, 120, 191, 113,
+        ],
+        fillColor: HIGHLIGHT_COLOR,
+        strokeColor: BORDER_COLOR,
+        lineWidth: BORDER_WIDTH,
+        tooltip: "left",
       },
     ],
   };
