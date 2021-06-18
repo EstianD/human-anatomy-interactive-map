@@ -26,15 +26,7 @@ const HumanAnatomy = () => {
   return (
     <div>
       {/* <Tooltip onHover={onHover} /> */}
-      {onHover && (
-        <div
-          ref={setTooltipRef}
-          {...getTooltipProps({ className: "tooltip-container" })}
-        >
-          <div {...getArrowProps({ className: "tooltip-arrow" })} />
-          Tooltip
-        </div>
-      )}
+      {onHover && <Tooltip />}
 
       <div
         className="human-anatomy-container"
