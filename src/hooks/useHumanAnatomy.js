@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const useHumanAnatomy = () => {
-  const [onHover, setOnHover] = useState(true);
+  const [onHover, setOnHover] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState("left");
   const [tooltipData, setTooltipData] = useState("");
   // Mouse over event for body parts

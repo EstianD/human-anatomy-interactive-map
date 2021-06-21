@@ -19,8 +19,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
-        description:
-          "The pectoralis major is the most superficial muscle in the pectoral region.<br/> It is large and fan shaped, and is composed of a sternal head and a clavicular head.[1] The pectoralis major is active in deep or forced inspiration, but not expiration. ",
+        description: `<h4>Pectoralis major</h4><p>Pectoralis major is a thick, fan-shaped muscle contributing to the thoracobrachial motion. It consists of a clavicular part and a sternal part, both converging to a flat tendon that inserts on the humerus. It’s innervated by both medial and lateral pectoral nerves.</p>`,
       },
       {
         name: "Biceps brachii right",
@@ -33,6 +32,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Biceps brachii</h4><p>The biceps is a muscle on the front part of the upper arm. The biceps includes a “short head” and a “long head” that work as a single muscle.</p><p>The biceps is attached to the arm bones by tough connective tissues called tendons. The tendons that connect the biceps muscle to the shoulder joint in two places are called the proximal biceps tendons. The tendon that attaches the biceps muscle to the forearm bones (radius and ulna) is called the distal biceps tendon. When the biceps contracts, it pulls the forearm up and rotates it outward.</p>`,
       },
       {
         name: "Biceps brachii left",
@@ -45,6 +45,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Biceps brachii</h4><p>The biceps is a muscle on the front part of the upper arm. The biceps includes a “short head” and a “long head” that work as a single muscle.</p><p>The biceps is attached to the arm bones by tough connective tissues called tendons. The tendons that connect the biceps muscle to the shoulder joint in two places are called the proximal biceps tendons. The tendon that attaches the biceps muscle to the forearm bones (radius and ulna) is called the distal biceps tendon. When the biceps contracts, it pulls the forearm up and rotates it outward.</p>`,
       },
       {
         name: "Anterior deltoid right",
@@ -57,6 +58,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Deltoid</h4><p>The Deltoid muscle is a large triangular shaped muscle which lies over the glenohumeral joint and which gives the shoulder its rounded contour. It is named after the Greek letter delta, which is shaped like an equilateral triangle. It comprises 3 distinct portions each of which produces a different movement of the glenohumeral joint, commonly named the anterior, mid (or lateral) and posterior heads.</p>`,
       },
       {
         name: "Anterior deltoid left",
@@ -69,6 +71,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Deltoid</h4><p>The Deltoid muscle is a large triangular shaped muscle which lies over the glenohumeral joint and which gives the shoulder its rounded contour. It is named after the Greek letter delta, which is shaped like an equilateral triangle. It comprises 3 distinct portions each of which produces a different movement of the glenohumeral joint, commonly named the anterior, mid (or lateral) and posterior heads.</p>`,
       },
       {
         name: "Anterior deltoid back right",
@@ -81,6 +84,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Deltoid</h4><p>The Deltoid muscle is a large triangular shaped muscle which lies over the glenohumeral joint and which gives the shoulder its rounded contour. It is named after the Greek letter delta, which is shaped like an equilateral triangle. It comprises 3 distinct portions each of which produces a different movement of the glenohumeral joint, commonly named the anterior, mid (or lateral) and posterior heads.</p>`,
       },
       {
         name: "Anterior deltoid back left",
@@ -93,6 +97,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Deltoid</h4><p>The Deltoid muscle is a large triangular shaped muscle which lies over the glenohumeral joint and which gives the shoulder its rounded contour. It is named after the Greek letter delta, which is shaped like an equilateral triangle. It comprises 3 distinct portions each of which produces a different movement of the glenohumeral joint, commonly named the anterior, mid (or lateral) and posterior heads.</p>`,
       },
       {
         name: "Serratus anterior right",
@@ -105,6 +110,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Serratus anterior</h4><p>The serratus anterior muscle is a fan-shaped muscle at the lateral wall of the thorax. Its main part lies deep under the scapula and the pectoral muscles. It is easy to palpate between the pectoralis major and latissimus dorsi muscles.</p>`,
       },
       {
         name: "Serratus anterior left",
@@ -117,6 +123,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Serratus anterior</h4><p>The serratus anterior muscle is a fan-shaped muscle at the lateral wall of the thorax. Its main part lies deep under the scapula and the pectoral muscles. It is easy to palpate between the pectoralis major and latissimus dorsi muscles.</p>`,
       },
       {
         name: "Triceps brachii left",
@@ -130,6 +137,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Triceps brachii</h4><p>The triceps brachii is a major muscle of the upper arm in the human body. The triceps run along the humerus (the main bone of the upper arm) between the shoulder and the elbow. Along with the biceps, it enables extension and retraction of the forearm. When the triceps are contracted, the forearm extends and the elbow straightens; if the triceps are relaxed and the biceps flexed, the forearm retracts and the elbow bends. The triceps also serve to stabilize the shoulder joint at the top of the humerus.</p>`,
       },
       {
         name: "Triceps brachii right",
@@ -143,6 +151,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Triceps brachii</h4><p>The triceps brachii is a major muscle of the upper arm in the human body. The triceps run along the humerus (the main bone of the upper arm) between the shoulder and the elbow. Along with the biceps, it enables extension and retraction of the forearm. When the triceps are contracted, the forearm extends and the elbow straightens; if the triceps are relaxed and the biceps flexed, the forearm retracts and the elbow bends. The triceps also serve to stabilize the shoulder joint at the top of the humerus.</p>`,
       },
       {
         name: "Rectus abdominis",
@@ -157,6 +166,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Rectus abdominis</h4><p>Informally known as the abs muscle, is a long muscle of the anterior abdominal wall. In those with low body fat, it is clearly visible beneath the skin forming the ‘six pack’. It extends from the rib cage all the way to the pubic bone. </p><p>Rectus abdominis belongs to the anterior abdominal muscles together with pyramidalis muscle. But taking the functional anatomy into account, these two muscles comprise the anterolateral abdominal wall along with the three lateral abdominal muscles; external oblique, internal oblique and transversus abdominis.</p>`,
       },
       {
         name: "Gastrocnemius left",
@@ -171,6 +181,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Gastrocnemius</h4><p>Gastrocnemius is a large muscle located in the posterior leg. Posteriorly, is the most superficial of the muscles of the leg, and forms the bulk of the calf.</p><p>In conjunction with the soleus muscle, it is a component of a composite, three-headed group of muscles referred to as triceps surae. Together, they act in many basic activities, such as walking, running and leaping.</p>`,
       },
       {
         name: "Gastrocnemius right",
@@ -185,6 +196,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Gastrocnemius</h4><p>Gastrocnemius is a large muscle located in the posterior leg. Posteriorly, is the most superficial of the muscles of the leg, and forms the bulk of the calf.</p><p>In conjunction with the soleus muscle, it is a component of a composite, three-headed group of muscles referred to as triceps surae. Together, they act in many basic activities, such as walking, running and leaping.</p>`,
       },
       {
         name: "Gluteus maximus",
@@ -201,6 +213,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Gluteus Maximus</h4><p>Gluteus Maximus the largest and heaviest muscle in the body. It is the most superficial of all gluteal muscles that are located at the posterior aspect of the hip joint. This makes it the largest muscle at the hip representing 16% of the total cross-sectional area (TCSA).</p><p>Gluteus Maximus's size allows it to generate a large amount of force. The muscle evolved from an adductor of the hip which is still seen in lower primates today. The development of the muscle's function is associated with the erect posture and changes to the pelvis. It now functions to maintain the erect posture as one of the muscles that extends the hip joint.</p>`,
       },
       {
         name: "Trapezius back",
@@ -216,6 +229,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Trapezius</h4><p>The trapezius muscle is a large, triangular, paired muscle located on the posterior aspect of the neck and thorax. When viewed together, this pair forms a diamond or trapezoid shape, hence its name. The trapezius has many attachment points, extending from the skull and vertebral column to the shoulder girdle.</p><p>The trapezius belongs to the superficial layer of the extrinsic muscles of the back, along with latissimus dorsi, rhomboid major and minor, and levator scapulae muscles. The trapezius is largely involved in movements of the shoulder girdle, and is therefore functionally considered as a muscle of the upper limb rather than of the back.</p>`,
       },
       {
         name: "Quadriceps femoris right",
@@ -229,6 +243,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Quadriceps femoris</h4><p>The quadriceps femoris muscle, commonly known as the quad muscle, is the strongest muscle of the human body. It is located in the anterior compartment of the thigh, together with the sartorius.</p><p>The quadriceps femoris muscle translates to “four-headed muscle” from Latin. It bears this name because it consists of four individual muscles; rectus femoris, vastus medialis, vastus lateralis, and vastus intermedius. Out of all four muscles, only the rectus femoris crosses both the hip and knee joints. The others cross only the knee joint. These muscles differ in their origin, but share a common quadriceps femoris tendon which inserts into the patella. The function of the quadriceps femoris muscle is to extend the leg at the knee joint and to flex the thigh at the hip joint. </p>`,
       },
       {
         name: "Quadriceps femoris left",
@@ -243,6 +258,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Quadriceps femoris</h4><p>The quadriceps femoris muscle, commonly known as the quad muscle, is the strongest muscle of the human body. It is located in the anterior compartment of the thigh, together with the sartorius.</p><p>The quadriceps femoris muscle translates to “four-headed muscle” from Latin. It bears this name because it consists of four individual muscles; rectus femoris, vastus medialis, vastus lateralis, and vastus intermedius. Out of all four muscles, only the rectus femoris crosses both the hip and knee joints. The others cross only the knee joint. These muscles differ in their origin, but share a common quadriceps femoris tendon which inserts into the patella. The function of the quadriceps femoris muscle is to extend the leg at the knee joint and to flex the thigh at the hip joint. </p>`,
       },
       {
         name: "Biceps femoris left",
@@ -257,6 +273,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Biceps femoris</h4><p>Biceps femoris is a long muscle of the posterior aspect of the thigh. Together with the semitendinosus and semimembranosus muscles, it makes the group of muscles commonly known as the hamstrings.</p><p>Biceps femoris muscle runs from the ischial tuberosity, all the way to the proximal part of the fibula. In doing so the muscle crosses two joints; the hip joint and the knee joint. Acting simultaneously on these joints, biceps femoris has many important functions; flexion and external rotation at the knee joint, extension and external rotation in the hip joint.</p>`,
       },
       {
         name: "Biceps femoris right",
@@ -267,11 +284,11 @@ export function MapPoints() {
           435, 437, 442, 425, 447, 409, 450, 423, 454, 435, 456, 409, 458, 386,
           460, 371, 460, 365, 461, 358,
         ],
-
         fillColor: HIGHLIGHT_COLOR,
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Biceps femoris</h4><p>Biceps femoris is a long muscle of the posterior aspect of the thigh. Together with the semitendinosus and semimembranosus muscles, it makes the group of muscles commonly known as the hamstrings.</p><p>Biceps femoris muscle runs from the ischial tuberosity, all the way to the proximal part of the fibula. In doing so the muscle crosses two joints; the hip joint and the knee joint. Acting simultaneously on these joints, biceps femoris has many important functions; flexion and external rotation at the knee joint, extension and external rotation in the hip joint.</p>`,
       },
       {
         name: "Latissimus dorsi left",
@@ -285,6 +302,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Latissimus dorsi</h4><p>The latissimus dorsi muscle (AKA: 'the lats muscle' or 'the lats') is the widest muscle in the human body. It is relatively thin and covers almost all back muscles at the posterior trunk, except the trapezius.</p><p>Functionally, the latissimus dorsi muscle belongs to the muscles of the scapular motion. This muscle is able to pull the inferior angle of the scapula in various directions, producing movements on the shoulder joint; internal rotation, adduction and extension of the arm. Moreover, it is an accessory respiratory muscle, as well as one of the main stabilizers of the spine during its various movements.</p>`,
       },
       {
         name: "Latissimus dorsi right",
@@ -299,6 +317,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "right",
+        description: `<h4>Latissimus dorsi</h4><p>The latissimus dorsi muscle (AKA: 'the lats muscle' or 'the lats') is the widest muscle in the human body. It is relatively thin and covers almost all back muscles at the posterior trunk, except the trapezius.</p><p>Functionally, the latissimus dorsi muscle belongs to the muscles of the scapular motion. This muscle is able to pull the inferior angle of the scapula in various directions, producing movements on the shoulder joint; internal rotation, adduction and extension of the arm. Moreover, it is an accessory respiratory muscle, as well as one of the main stabilizers of the spine during its various movements.</p>`,
       },
       {
         name: "Brachialis right",
@@ -311,6 +330,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Brachialis</h4><p>The brachialis muscle is a prime flexor of the forearm at the elbow joint. It is fusiform in shape and located in the anterior (flexor) compartment of the arm, deep to the biceps brachii. The brachialis is a broad muscle, with its broadest part located in the middle rather than at either of its extremities.</p><p>It is sometimes divided into two parts, and may fuse with the fibers of the biceps brachii, coracobrachialis, or pronator teres muscles. It also functions to form part of the floor of the cubital fossa.</p>`,
       },
       {
         name: "Brachialis left",
@@ -323,6 +343,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Brachialis</h4><p>The brachialis muscle is a prime flexor of the forearm at the elbow joint. It is fusiform in shape and located in the anterior (flexor) compartment of the arm, deep to the biceps brachii. The brachialis is a broad muscle, with its broadest part located in the middle rather than at either of its extremities.</p><p>It is sometimes divided into two parts, and may fuse with the fibers of the biceps brachii, coracobrachialis, or pronator teres muscles. It also functions to form part of the floor of the cubital fossa.</p>`,
       },
       {
         name: "Obliquus externus abdominis right",
@@ -336,6 +357,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Obliquus externus abdominis</h4><p>External abdominal oblique is a paired muscle located on the lateral sides of the abdominal wall. Along with internal abdominal oblique and transversus abdominis, it comprises the lateral abdominal muscles. In a broader picture, these muscles make up the anterolateral abdominal wall together with two anterior abdominal muscles; the rectus abdominis and pyramidalis.</p><p>Abdominal muscles work together to produce movements of the spine as well as to compress the abdominal viscera. External abdominal oblique in particular causes ipsilateral lateral flexion of the trunk and contralateral rotation of the trunk when it contracts unilaterally. Bilateral contraction flexes the trunk anteriorly, increasing intra abdominal pressure, which is useful in processes such as breathing, singing and defecation.</p>`,
       },
       {
         name: "Obliquus externus abdominis left",
@@ -349,6 +371,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Obliquus externus abdominis</h4><p>External abdominal oblique is a paired muscle located on the lateral sides of the abdominal wall. Along with internal abdominal oblique and transversus abdominis, it comprises the lateral abdominal muscles. In a broader picture, these muscles make up the anterolateral abdominal wall together with two anterior abdominal muscles; the rectus abdominis and pyramidalis.</p><p>Abdominal muscles work together to produce movements of the spine as well as to compress the abdominal viscera. External abdominal oblique in particular causes ipsilateral lateral flexion of the trunk and contralateral rotation of the trunk when it contracts unilaterally. Bilateral contraction flexes the trunk anteriorly, increasing intra abdominal pressure, which is useful in processes such as breathing, singing and defecation.</p>`,
       },
       {
         name: "Trapezius front right",
@@ -361,6 +384,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Trapezius</h4><p>The trapezius muscle is a large, triangular, paired muscle located on the posterior aspect of the neck and thorax. When viewed together, this pair forms a diamond or trapezoid shape, hence its name. The trapezius has many attachment points, extending from the skull and vertebral column to the shoulder girdle.</p><p>The trapezius belongs to the superficial layer of the extrinsic muscles of the back, along with latissimus dorsi, rhomboid major and minor, and levator scapulae muscles. The trapezius is largely involved in movements of the shoulder girdle, and is therefore functionally considered as a muscle of the upper limb rather than of the back.</p>`,
       },
       {
         name: "Trapezius front left",
@@ -373,6 +397,7 @@ export function MapPoints() {
         strokeColor: BORDER_COLOR,
         lineWidth: BORDER_WIDTH,
         tooltip: "left",
+        description: `<h4>Trapezius</h4><p>The trapezius muscle is a large, triangular, paired muscle located on the posterior aspect of the neck and thorax. When viewed together, this pair forms a diamond or trapezoid shape, hence its name. The trapezius has many attachment points, extending from the skull and vertebral column to the shoulder girdle.</p><p>The trapezius belongs to the superficial layer of the extrinsic muscles of the back, along with latissimus dorsi, rhomboid major and minor, and levator scapulae muscles. The trapezius is largely involved in movements of the shoulder girdle, and is therefore functionally considered as a muscle of the upper limb rather than of the back.</p>`,
       },
     ],
   };

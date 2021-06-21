@@ -1,15 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactTooltip from "react-tooltip";
 
-const Tooltip = () => {
+const Tooltip = ({ tooltipData }) => {
   return (
-    <div>
-      <div>
-        tooltip
-        {/* <p data-tip="hello world">Tooltip Comp</p> */}
-        {/* <ReactTooltip /> */}
-      </div>
-    </div>
+    <div
+      className="tooltip"
+      dangerouslySetInnerHTML={{ __html: tooltipData }}
+    ></div>
   );
 };
 

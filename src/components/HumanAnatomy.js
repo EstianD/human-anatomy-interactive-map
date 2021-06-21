@@ -6,7 +6,7 @@ import humanBodyGray from "../images/human-anatomy-gray.png";
 import useHumanAnatomy from "../hooks/useHumanAnatomy";
 import { usePopperTooltip } from "react-popper-tooltip";
 
-import { MapPoints, tooltipData } from "../MapPoints";
+import { MapPoints } from "../MapPoints";
 
 // Import components
 import Tooltip from "./Tooltip";
@@ -24,10 +24,14 @@ const HumanAnatomy = () => {
 
   console.log(MapPoints());
   return (
-    <div>
-      {/* <Tooltip onHover={onHover} /> */}
-      {onHover && <Tooltip />}
+    <div className="landing-page">
+      {/* {onHover && <Tooltip />} */}
 
+      <div className="tooltip-container">
+        {onHover && tooltipPosition === "left" && (
+          <Tooltip tooltipData={tooltipData} />
+        )}
+      </div>
       <div
         className="human-anatomy-container"
         data-tip
@@ -37,11 +41,17 @@ const HumanAnatomy = () => {
         <ImageMapper
           src={humanBodyGray}
           map={MapPoints()}
-          // width={500}
+          width={587}
+          imgWidth={587}
           // onLoad={() => this.load()}
           onMouseEnter={(area) => enterArea(area)}
           onMouseLeave={(area) => leaveArea(area)}
         />
+      </div>
+      <div className="tooltip-container">
+        {onHover && tooltipPosition === "right" && (
+          <Tooltip tooltipData={tooltipData} />
+        )}
       </div>
     </div>
   );
