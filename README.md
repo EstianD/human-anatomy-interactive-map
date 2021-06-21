@@ -1,3 +1,3 @@
-## Human anatomy app with interactive map
+## Human anatomy interactive map
 
-This is lets you pick a muscle (body part) and will then give you details and exercises regarding that muscle.
+Shows you a model of the human anatomy. You can then hover over muscle groups and get a description regarding those muscle.
